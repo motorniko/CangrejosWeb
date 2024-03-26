@@ -1,0 +1,128 @@
+
+
+body{
+    background-color: rgb(7, 7, 44);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 90px;
+    margin-top: 0;
+    padding: 40px;
+    position: fixed;
+    z-index: 1;
+}
+
+.ContMenu{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.Logos{
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.Logo1{
+    height: 150px;
+}
+
+.Logo2{
+    height: 150px;
+}
+
+.Logos text{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.ContNav{
+   display: flex;
+   align-items: center;
+   padding-right: 10rem;
+}
+
+.ContNav ul{
+    display: flex;
+}
+
+.ContNav ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+.ContNav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.Footer{
+    margin-top: 20px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.LogosFooter{
+    display: flex;
+    height:auto;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.Logo1Footer{
+    height: 80px;
+}
+
+.Logo2Footer{
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.LogosFooter text{
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 380px;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.ContNav_Footer{
+    height:auto;
+    width: 100%;
+    display: flex;
+    padding-left: 50px;
+    justify-content: flex-end;
+}
+
+.ContNav_Footer a{ 
+    text-decoration-line:none;
+    padding: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family:Verdana,Tahoma, sans-serif;
+}
