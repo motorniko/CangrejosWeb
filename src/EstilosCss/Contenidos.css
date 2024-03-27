@@ -188,7 +188,7 @@ background-color: aqua;
     padding-bottom: 4rem;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(8, 220px);
+    grid-template-columns: repeat(7, 220px);
     grid-gap : 5px;
 }
 

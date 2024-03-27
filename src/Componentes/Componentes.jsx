@@ -171,9 +171,7 @@ export const Galeria = () => {
           <img src={ga3} alt='Nosotros'/>
           <img src={ga4} alt='Nosotros'/>
           <img src={ga5} alt='Nosotros'/>
-          <img src={ga6} alt='Nosotros'/>
           <img src={ga7} alt='Nosotros'/>
-          <img src={ga8} alt='Nosotros'/>
           <img src={ga9} alt='Nosotros'/>
           <img src={ga10} alt='Nosotros'/>
           <img src={ga11} alt='Nosotros'/>
