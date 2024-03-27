@@ -1,9 +1,12 @@
 
 .contF1{
+    position: relative;
     justify-content:center;
     align-items: center;
     height: 550px;
     width: 100%;
+    top: 11rem;
+
 }
 
 .contF1 img{
@@ -25,9 +28,10 @@
 
 }
 .ContNosotros{
-margin-top: 0;
 width: 100%;
-display: flex;
+display:flex;
+position: relative;
+margin-top: 11rem;
 background-color: white;
 }
 
@@ -74,6 +78,7 @@ height: auto;
 display: flex;
 justify-content: center;
 margin: auto;
+background-color:  rgb(7, 7, 44);
 }
 
 .Card{
