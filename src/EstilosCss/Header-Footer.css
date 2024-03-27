@@ -80,17 +80,16 @@ header{
 
 
 
-.Footer{
-    margin-top: 20px;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-bottom: 1.5rem;
+footer{
+    width: 100%;
+    height: 80px;
+    padding: 40px;
+    position: relative;
 }
 
 .LogosFooter{
+    padding-left: 1rem;
     display: flex;
-    height:auto;
-    justify-content:flex-start;
     align-items: center;
 }
 
@@ -100,15 +99,12 @@ header{
 
 .Logo2Footer{
     height: 80px;
-    margin-left: 20px;
-    margin-right: 25px;
 }
 
 .LogosFooter text{
     align-items: center;
-    justify-content: center;
-    height: 150px;
-    width: 380px;
+    height: 100%;
+    width:fit-content;
     display: flex;
     font-size: 15px;
     font-weight: bold;
@@ -116,18 +112,26 @@ header{
 
 }
 
-.ContNav_Footer{
-    height:auto;
-    width: 100%;
-    display: flex;
-    padding-left: 50px;
-    justify-content: flex-end;
-}
-
-.ContNav_Footer a{ 
-    text-decoration-line:none;
-    padding: 40px;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    font-family:Verdana,Tahoma, sans-serif;
-}
+.ContFooter{
+   
+   display: flex;
+   align-items: center;
+   padding-right: 10rem;
+   justify-content: space-between;
+ }
+ 
+ .ContFooter ul{
+     display: flex;
+ }
+ 
+ .ContFooter ul li{
+     list-style: none;
+     margin-left: 40px;
+ }
+ 
+ .ContFooter ul li a{
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: bold;
+     color: white;
+ }

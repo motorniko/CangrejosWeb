@@ -188,24 +188,27 @@ export const Galeria = () => {
       );
   }
 
-
 export const Footer = () => {
   return ( 
 
-        <header className="Footer">
+      <footer>
+          <div className="ContFooter">
           <div className='LogosFooter'>
-              <div><img src={logo1} alt='Logo comuna' className='Logo1Footer'/></div>
-              <div><img src={logo2} alt='Logo comuna' className='Logo2Footer'/></div>
-              <text>Club de futbol Cangrejos de Lolol</text>
-               <div className='ContNav_Footer'>
-                <nav>
-                   <a href='' class="nav-link">Facebook</a>
-                   <a href='' class="nav-link">Instagram</a>
-                   <a href='' class="nav-link">Correo</a>
-                   <a href='' class="nav-link">Contacto</a>
-                </nav>
-              </div>
-           </div>
-        </header>
+                  <img src={logo1} alt='Logo comuna' className='Logo1Footer'/>
+                  <img src={logo2} alt='Logo comuna' className='Logo2Footer'/>
+                  <text>Club de futbol Cangrejos de Lolol</text>
+          </div>
+          <div className='ContFooter'>
+                  <nav>
+                     <ul>
+                       <li><a href='' class="nav-link">Facebook</a></li>
+                       <li><a href='' class="nav-link">Instagram</a></li>
+                       <li><a href='' class="nav-link">Correo</a></li>
+                       <li><a href='' class="nav-link">Contacto</a></li>
+                      </ul>
+                  </nav>
+                </div>
+          </div>
+      </footer>
    );
 }
