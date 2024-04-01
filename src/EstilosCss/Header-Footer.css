@@ -9,13 +9,13 @@ body{
 
 
 header{
-    width: 100%;
+    width:100%;
     height: 95px;
     margin-top: 0;
     padding: 40px;
     position: fixed;
     z-index: 1;
-    background: rgba(255, 255, 255, .0);
+    background: rgba(26, 214, 199, 0);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border: 1.5px solid rgba(209, 213, 219, 0.2);
@@ -25,9 +25,7 @@ header{
 .ContMenu{
     width: 100%;
     height: 100%;
-    margin-top: 0;
     display: flex;
-    margin: auto;
     justify-content: space-between;
 
 }
@@ -59,7 +57,7 @@ header{
 .ContNav{
    display: flex;
    align-items: center;
-   padding-right: 10rem;
+   margin-right: 250px;
 }
 
 .ContNav ul{
@@ -82,13 +80,13 @@ header{
 
 footer{
     width: 100%;
-    height: 80px;
-    padding: 40px;
+    height: 150px;
+    padding-left: 0;
     position: relative;
 }
 
 .LogosFooter{
-    padding-left: 1rem;
+    padding-left: 7rem;
     display: flex;
     align-items: center;
 }
@@ -102,10 +100,7 @@ footer{
 }
 
 .LogosFooter text{
-    align-items: center;
-    height: 100%;
-    width:fit-content;
-    display: flex;
+
     font-size: 15px;
     font-weight: bold;
     color: white;
@@ -113,25 +108,93 @@ footer{
 }
 
 .ContFooter{
-   
+    height: 100%;
    display: flex;
-   align-items: center;
-   padding-right: 10rem;
-   justify-content: space-between;
- }
- 
- .ContFooter ul{
-     display: flex;
- }
- 
- .ContFooter ul li{
-     list-style: none;
-     margin-left: 40px;
- }
- 
- .ContFooter ul li a{
-     text-decoration: none;
-     font-size: 15px;
-     font-weight: bold;
-     color: white;
+    align-items: center;
+    padding-right: 1rem;
+    justify-content: space-between;
+  }
+  
+  .ContFooter ul{
+    padding-right: 7rem;
+      display: flex;
+  }
+  
+  .ContFooter ul li{
+      list-style: none;
+      margin-left: 40px;
+  }
+  
+  .ContFooter ul li a{
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+  }
+
+
+ @media screen and (max-width: 800px) {
+
+    .ContMenu, 
+     header
+    
+    {
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem; 
+    }
+
+    .Logo1,
+    .Logo2,
+    .Logos text
+
+    {
+        text-wrap:balance;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .ContNav
+    {
+        padding-top: 1rem;
+    }
+
+    .ContNav ul li a
+    {
+        font-size: 12px;
+    }
+
+
+     footer,
+     .ContFooter
+
+    {   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Logo1Footer,
+    .Logo2Footer,
+    .LogosFooter text
+
+    {
+    
+        padding-top: 2rem;
+        height: 50px;
+        font-size: 20px;
+        text-wrap:balance;
+
+    }
+
+    .ContRrss ul
+    {
+        padding-right: 2rem;
+    }
+
+    .ContRrss ul li a
+    {
+        font-size: 12px;
+    }
+
  }

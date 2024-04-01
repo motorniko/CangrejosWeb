@@ -1,3 +1,5 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 import '../EstilosCss/Header-Footer.css'
 import '../EstilosCss/Contenidos.css'
 
@@ -47,7 +49,7 @@ export const Header = () => {
           <div className='ContNav'>
                   <nav>
                      <ul>
-                       <li><a href='' >Directiva</a></li>
+                       <li><a href=''>Directiva</a></li>
                        <li><a href=''>Contacto</a></li>
                       </ul>
                   </nav>
@@ -121,7 +123,6 @@ export const Card_Noticias = () => {
   return ( 
 
     <div className='Container'>
-
         <div className='Card'>
             <img src={n1} alt='entrenando'/>
               <text className='text1'>
@@ -191,13 +192,13 @@ export const Footer = () => {
 
       <footer>
           <div className="ContFooter">
-          <div className='LogosFooter'>
+            <div className='LogosFooter'>
                   <img src={logo1} alt='Logo comuna' className='Logo1Footer'/>
                   <img src={logo2} alt='Logo comuna' className='Logo2Footer'/>
                   <text>Club de futbol Cangrejos de Lolol</text>
-          </div>
-          <div className='ContFooter'>
-                  <nav>
+            </div>
+            <div className='ContFooter'>
+                  <nav className='ContRrss'>
                      <ul>
                        <li><a href='' class="nav-link">Facebook</a></li>
                        <li><a href='' class="nav-link">Instagram</a></li>
