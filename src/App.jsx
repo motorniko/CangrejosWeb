@@ -6,7 +6,6 @@ import {Nosotros} from './Componentes/Nosotros'
 import {NavNoticia, Card_Noticias} from './Componentes/Noticias'
 import {Footer} from './Componentes/Footer'
 
-
 function App() {
 
   return (
