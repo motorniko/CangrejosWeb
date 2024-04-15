@@ -1,5 +1,10 @@
 import React from 'react';
-import {Header, ContF1, NavNoticia,Footer, Card_Noticias, Nosotros, Galeria} from './Componentes/Componentes'
+
+import {Galeria} from './Componentes/Galeria'
+import {Header, ContF1} from './Componentes/Header'
+import {Nosotros} from './Componentes/Nosotros'
+import {NavNoticia, Card_Noticias} from './Componentes/Noticias'
+import {Footer} from './Componentes/Footer'
 
 
 function App() {
