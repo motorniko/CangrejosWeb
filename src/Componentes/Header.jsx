@@ -10,7 +10,6 @@ import logo3 from '../Logo/logo3.png'
 
 export const Header  = () => {
 
-
   const[Header,setHeader]= useState(false);
   const changeBg = () =>{
     if(window.scrollY>0) {
@@ -35,8 +34,28 @@ export const Header  = () => {
             <div className='ContNav'>
                     <nav>
                        <ul>
-                         <li><a href=''>Directiva</a></li>
-                         <li><a href=''>Contacto</a></li>
+
+                         <li><a href='#' className='selector'>Directiva</a>
+
+                          <ul className='sub-menu1'>
+
+                            <li><a href='#'>Presidente:</a></li>
+                            <li><a href='#'>V.Presidente:</a></li>
+                            <li><a href='#'>Secretario:</a></li>
+                            <li><a href='#'>Tesorero:</a></li>
+
+                          </ul>
+                         </li>
+
+                         <li><a href='#' className='selector'>Contacto</a>
+
+                         <ul className='sub-menu1'>
+
+                            <li><a href='#'>Correo:</a></li>
+                            <li><a href='#'>Telefono:</a></li>
+
+                          </ul>
+                         </li>
                         </ul>
                     </nav>
                   </div>
