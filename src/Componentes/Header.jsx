@@ -29,7 +29,7 @@ export const Header  = () => {
             <div className='Logos'>
                   <img src={logo1} alt='Logo comuna' className='Logo1'/>
                     <img src={logo2} alt='Logo comuna' className='Logo2'/>
-                     <text>Club de futbol Cangrejos de Lolol</text>
+                     <text>Escuela de futbol Cangrejos de Lolol</text>
             </div>
             <div className='ContNav'>
                     <nav>
